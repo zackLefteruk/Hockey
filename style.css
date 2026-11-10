@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+ 
+ul li {
+  float: left;
+}
+ 
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+ 
+ul li a.active {
+  background-color: #04AA6D;
+}
+
+table {
+border-collapse: collapse;
+width: 60%;
+border-style: double;
+border-width: 12px;
+
+}
+th, td {
+text-align: left;
+padding: 8px;
+}
+tr:nth-child(even) {
+background-color: #525252; /* Light gray for even rows */
+
+
+    
+
+}
+
+html{
+  width:80%;
+  margin:auto;
+}
